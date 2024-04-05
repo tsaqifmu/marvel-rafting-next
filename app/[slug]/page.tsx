@@ -42,7 +42,7 @@ const page = () => {
       <FacilityDetail {...packet} />
       <TimeTable {...packet} />
       <EquipmentDetail {...packet} />
-
+      {/* hw]as */}
       <Footer />
     </PageWrapper>
   );

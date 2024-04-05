@@ -12,7 +12,7 @@ import { packetDetail } from "@/constant/index";
 import { useParams } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 
-const page = () => {
+const PageDetail = () => {
   const params = useParams<{ slug: string }>();
   const packet = packetDetail.find((p) => p.id === params.slug);
   const [scrollY, setScrollY] = useState(0);
@@ -48,4 +48,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default PageDetail;
